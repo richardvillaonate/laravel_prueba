@@ -22,6 +22,7 @@ Aplicación para la gestión de casos de un bufete de abogados desarrollada con:
 * Dashboard web con Blade y Bootstrap.
 * Datos de prueba mediante Seeder.
 
+
 ---
 
 # 1. Requisitos
@@ -234,7 +235,19 @@ El Excel contiene información de los casos organizada por abogado.
 
 ---
 
-# 12. Consultas SQL solicitadas
+# 12. Esquema y Consultas SQL solicitadas
+
+### Script SQL del esquema
+
+El esquema completo de la base de datos se encuentra en:
+
+`database/sql/esquema.sql`
+
+### Migraciones y restricciones
+
+Los triggers necesarios para garantizar que ningún registro pueda eliminarse se crean mediante una migración adicional utilizando 
+
+Esto permite que la misma protección definida en el esquema SQL pueda reproducirse al ejecutar las migraciones.
 
 ## Casos de un cliente por cédula
 
