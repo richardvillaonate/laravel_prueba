@@ -401,7 +401,7 @@ http://localhost:8080
 ### Credenciales de prueba
 
 ```text
-Email: admin@example.com
+Email: admin@bufete.com
 Password: password
 ```
 
