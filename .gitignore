@@ -14,7 +14,6 @@ mysql_data/
 /src/.vscode
 /src/.zed
 /src/auth.json
-/src/public/build
 /src/public/fonts-manifest.dev.json
 /src/public/hot
 /src/public/storage
