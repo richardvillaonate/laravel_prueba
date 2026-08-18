@@ -152,7 +152,7 @@ La aplicación mostrará la pantalla de Login.
 ### Credenciales
 
 ```text
-Email: admin@example.com
+Email: admin@bufete.com
 Password: password
 ```
 
@@ -172,7 +172,7 @@ Body:
 
 ```json
 {
-    "email": "admin@example.com",
+    "email": "admin@bufete.com",
     "password": "password"
 }
 ```
