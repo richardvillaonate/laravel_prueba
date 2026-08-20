@@ -89,7 +89,7 @@ La aplicación utiliza MySQL dentro de Docker.
 
 > Importante: `DB_HOST` debe ser el nombre del servicio MySQL definido en `docker-compose.yml`, normalmente `mysql`.
 
-Si el proyecto ya incluye el archivo `.env`, no es necesario realizar una configuración adicional.
+el proyecto ya incluye el archivo `.env`, no es necesario realizar una configuración adicional.
 
 ---
 
